@@ -5,20 +5,26 @@ Flask==2.1.2
 gdown
 gradio
 gym==0.24.0
-numpy==1.22.4
-pandas==1.4.2
-pyserini==0.17.0
+matplotlib>=3.6.0
+numpy>=1.22.4
+pandas>=1.4.2
+pyserini>=0.22.0
 pytest
+pybind11>=2.11.0
+# nmslib          # see https://github.com/nmslib/nmslib/issues/538
 PyYAML==6.0
 rank_bm25==0.2.2
 requests==2.27.1
 requests_mock
-rich==12.4.4
-scikit_learn==1.1.1
+rich
+scikit_learn
 selenium==4.2.0
-spacy==3.3.0
+spacy
 thefuzz==0.19.0
-torch==1.11.0
-tqdm==4.64.0
+#torch
+tqdm
 train==0.0.5
-transformers==4.19.2
+transformers
+
+# pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu118
+# vim: set ft=config:
