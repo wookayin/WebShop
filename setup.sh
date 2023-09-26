@@ -1,5 +1,8 @@
 #!/bin/bash
 
+set -e  # die if any subcommand fails
+set -x  # show what's going on
+
 # Displays information on how to use script
 helpFunction()
 {
